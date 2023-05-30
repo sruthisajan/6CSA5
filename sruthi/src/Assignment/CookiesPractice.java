@@ -11,9 +11,9 @@ public class CookiesPractice {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		WebDriver driver =new ChromeDriver();
-		driver.get("https://www.amazon.com");
+		driver.get("https://www.flipcart");
 		Set<Cookie> allCookies = driver.manage().getCookies();
-		System.out.println(allCookies.size());
+		      System.out.println(allCookies.size());
 		for(Cookie singleCooky:allCookies)
 			System.out.println(singleCooky.getName());
 		Cookie cooky=new Cookie("selenium","6");
