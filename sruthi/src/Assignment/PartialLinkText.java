@@ -51,17 +51,6 @@ public class PartialLinkText {
 		 driver.findElement(By.partialLinkText("Mobiles"));
 		 System.out.println("element10 identified");
 
-		 driver.get("https://www.ajio.com/");
-		 driver.findElement(By.partialLinkText("Mobiles"));
-		 System.out.println("element2 identified");
-
-		 driver.get("https://www.ajio.com/");
-		 driver.findElement(By.partialLinkText("Mobiles"));
-		 System.out.println("element2 identified");
-
-
-
-
 		 driver.close();
 	}
 
